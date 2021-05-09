@@ -19,6 +19,6 @@ public class P3 {
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.google.com");
-        driver.findElement(By.linkText("Gmail"));
+        driver.findElement(By.linkText("Gmail")).click();
     }
 }
